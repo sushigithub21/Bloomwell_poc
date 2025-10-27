@@ -1,0 +1,10 @@
+api:
+     base_url: "http://127.0.0.1:5000"  # Use the local Flask API
+     endpoints:
+       prescriptions: "/prescriptions"
+       modified: "/prescriptions/modified"
+     polling_interval_minutes: 5
+   snowflake:
+     database: "BLOOMWELL_DB"
+     schema_raw: "RAW"
+     schema_mart: "MART"
